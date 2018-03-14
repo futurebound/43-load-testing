@@ -15,16 +15,16 @@
 
 ## Requirements
 
-#### backend setup
+### backend setup
 * copy a deployed backend project into this fork; any deployed backend will work
 
-#### Feature Tasks
+### Feature Tasks
 Load test a deployed backend and localhost
 
-#### Test
+### Test
 * one test should break with a high load
 * one test that should not break and should have a high load
 
-#### Documentation
+### Documentation
 Write a description of the project in your README.md. 
 * Write one to two paragraphs on the behavior of the load testing and the artillery report. If you were presenting this lab to coworkers, how would you present it?
