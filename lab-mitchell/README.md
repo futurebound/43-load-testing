@@ -1,12 +1,10 @@
-# Lab 19 ~ Deployment
-
-[![Build Status](https://travis-ci.org/futurebound/19-deployment.svg?branch=development)](https://travis-ci.org/futurebound/19-deployment)
+# Lab 43 ~ Load Testing
 
 **Author**: Mitchell
 **Version**: 1.0.0
 
 ## Overview
-This lab is focused on utilizing TravisCI (continuous integration) to automatically test and deploy pushes or pull requests we make to specified branches. We set up these configurations on the TravisCI and Heroku websites, as well as a `.travis.yml` doc-file to the application.
+This lab utilizes artillery to load test a deployed backend application.
 
 ## Getting Started
 To get this application up and running, fork and/or clone this repository using the `git clone <git repository link>` command in your terminal. Next, run the `npm install` command, which will install all the necessary dependencies in the accompanying package.json file. If wanting to view tests, enter `npm install -D` into the command line. After those packages have installed, you can run `npm test` to explore the included tests and functionality of their respective solutions. You can open up the code in your favorite editor to explore/modify the code, see how the tests are structured, and create tests of your own if desired. `npm run test:debug` will allow for the use of the `debug` package if dev-dependencies have been installed. Downloading and installing `MongoDB` (see links below) and entering the command `npm run start-db` will initiate the database required for complete functionality.
@@ -40,6 +38,7 @@ The file `error-handler.js` in the `lib/` directory exports a single anonymous f
 
 
 ## Credits and Collaborations
+* [Artillery Docs](https://artillery.io/) ~ https://artillery.io/
 * [Bcrypt Docs](https://www.npmjs.com/package/bcrypt) ~ https://www.npmjs.com/package/bcrypt
 * [Body Parser Docs](https://www.npmjs.com/package/body-parser) ~ https://www.npmjs.com/package/body-parser
 * [Cors Docs](https://www.npmjs.com/package/cors) ~ https://www.npmjs.com/package/cors
